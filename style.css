@@ -2,9 +2,7 @@
 
 .navbar-brand {
   font-family: "Red Rose", serif;
-  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal;
 }
 
 body::before {
@@ -19,8 +17,23 @@ iframe {
   border-radius: 10px;
 }
 
+.learn-btn2:hover {
+  background-color: rgba(179, 179, 179, 0.525);
+}
+
+.diagonal-gradient {
+    background: linear-gradient(45deg, #0051ff, #7b9efe, #e0e8ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 @media (min-width: 768px) {
   .news-input {
     width: 50%;
+  }
+
+  .intro-text {
+    padding-right: 70px !important;
   }
 }
