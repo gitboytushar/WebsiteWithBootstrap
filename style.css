@@ -22,10 +22,18 @@ iframe {
 }
 
 .diagonal-gradient {
-    background: linear-gradient(45deg, #0051ff, #7b9efe, #e0e8ff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  background: linear-gradient(45deg, #0051ff, #7b9efe, #e0e8ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+input::placeholder {
+  color: #d2d2d2 !important;
+}
+
+#first-scroll-icon {
+  font-size: 45px;
 }
 
 @media (min-width: 768px) {
